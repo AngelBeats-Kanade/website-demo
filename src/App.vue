@@ -1,42 +1,108 @@
 <template>
   <div id="app">
     <div class="back"></div>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <h1>Welcome to your vue.js app!</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-    <h3>Contact me</h3>
-    <ul>
-      <li><a href="tencent://message/?uin=2445743081&Site=&Menu=yes" target="_blank" rel="noopener"><span class="social fa fa-qq">QQ</span></a></li>
-      <li><a href="mailto:angelbeats177@gmail.com?subject=welcome&body=Welcome to my page!" target="_blank" rel="noopener"><span class="social fa fa-envelope-o">E-mail</span></a></li>
-      <li><a href="https://github.com/AngelBeats-Kanade" target="_blank" rel="noopener"><span class="social fa fa-github">Github</span></a></li>
-      <li><a href="" target="_blank" rel="noopener"><span class="social fa fa-phone">(+86)18960519068</span></a></li>
-    </ul>
+    <h1>“那些最好的程序员不是为了得到更高的薪水或者得到公众的仰慕而编程，</h1>
+    <h1>他们只是觉得这是一件有趣的事情。”</h1>
+    <img alt="photo" src="./assets/photo.png" />
+    <div class="info">
+      <ul>
+        <li>姓名：肖陶珺</li>
+        <li>专业：电子科学与技术</li>
+      </ul>
+    </div>
+    <h2>skills</h2>
+    <div class="introduction">
+      <div class="clearfix"></div>
+      <div class="agileits_skills_grids">
+        <div class="col-md-6 agileits_skills_grid">
+          <div class="skills">
+            <div class="skill1" style="width: 80%"></div>
+            <div class="bar">
+              <p>HTML / CSS3</p>
+            </div>
+          </div>
+          <div class="skills skills1">
+            <div class="skill3" style="width: 75%"></div>
+            <div class="bar">
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="skills skills2">
+            <div class="skill4" style="width: 80%"></div>
+            <div class="bar">
+              <p>C/C++</p>
+            </div>
+          </div>
+          <div class="skills skills3">
+            <div class="skill5" style="width: 60%"></div>
+            <div class="bar">
+              <p>Java</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 agileits_skills_grid">
+          <div class="skills">
+            <div class="skill1" style="width: 60%"></div>
+            <div class="bar">
+              <p>python</p>
+            </div>
+          </div>
+          <div class="skills skills1">
+            <div class="skill3" style="width: 60%"></div>
+            <div class="bar">
+              <p>multitasking</p>
+            </div>
+          </div>
+          <div class="skills skills2">
+            <div class="skill4" style="width: 70%"></div>
+            <div class="bar">
+              <p>creative</p>
+            </div>
+          </div>
+          <div class="skills skills3">
+            <div class="skill5" style="width: 90%"></div>
+            <div class="bar">
+              <p>responsible</p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div class="contact">
+      <h3>联系我</h3>
+      <ul>
+        <li>
+          <a
+            href="tencent://message/?uin=2445743081&Site=&Menu=yes"
+            target="_blank"
+            rel="noopener"
+            ><span class="social fa fa-qq">QQ</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:angelbeats177@gmail.com?subject=welcome&body=Welcome to my page!"
+            target="_blank"
+            rel="noopener"
+            ><span class="social fa fa-envelope-o">E-mail</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/AngelBeats-Kanade"
+            target="_blank"
+            rel="noopener"
+            ><span class="social fa fa-github">Github</span></a
+          >
+        </li>
+        <li>
+          <a href="" target="_blank" rel="noopener"
+            ><span class="social fa fa-phone">(+86)18960519068</span></a
+          >
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -50,6 +116,16 @@
   text-align: center;
   color: #2c3e50;
 }
+img {
+  height: 196.8px;
+  width: 189.6px;
+  position: relative;
+}
+h2 {
+  position: relative;
+  top: 60px;
+  z-index: 100;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -61,11 +137,59 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
-  color: #42b983;
+.info {
+  position: relative;
 }
-.back{
-  background:url('./assets/back.jpg') center center no-repeat;
+.introduction {
+  padding: 2em;
+  width: 20%;
+  position: relative;
+  margin: 0 auto;
+  background: #f3c794;
+}
+.skills {
+  width: 100%;
+  margin: 1em 0 0;
+  height: 20px;
+  background: #ebebeb;
+}
+.skills,
+.skills1,
+.skills2,
+.skills3,
+.skills4 {
+  position: relative;
+}
+.bar {
+  position: absolute;
+  top: -60%;
+  left: 5%;
+}
+.bar p {
+  color: #212121;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.skill1,
+.skill3,
+.skill4,
+.skill5 {
+  height: 100%;
+  display: block;
+  background-color: #f1de00;
+}
+.agileits_skills_grids {
+  margin: 1em 0 0;
+}
+.contact a {
+  color: black;
+  transition: 1s;
+}
+.contact a:hover {
+  color: aliceblue;
+}
+.back {
+  background: url("./assets/back.jpg") center center no-repeat;
   background-size: 100% 100%;
   background-color: #cccccc;
   height: 100%;
@@ -74,5 +198,12 @@ a {
   z-index: -1;
   top: 0;
   left: 0;
+  filter: blur(5px);
+}
+.contact {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
 }
 </style>
