@@ -9,8 +9,15 @@
           <li>专业：电子科学与技术</li>
         </ul>
         <p>
-          “那些最好的程序员不是为了得到更高的薪水或者得到公众的仰慕而编程，他们只是觉得这是一件有趣的事情。”——Linus Torvalds
+          “那些最好的程序员不是为了得到更高的薪水或者得到公众的仰慕而编程，他们只是觉得这是一件有趣的事情。”——Linus
+          Torvalds
         </p>
+        <h3>
+          你好！我叫肖陶珺，是一个来自电子科学与技术专业的大三学生。目前正致力于成为一名合格的前端工程师。
+          曾经以码农的身份参加过“萌升杯”并获得了一等奖。我具有一定的编程基础，能熟练应用HTML/CSS/JS三剑客，
+          基本熟悉Vue框架的基础，能熟练使用webpack，git等工具，还对C/C++,Java有一定的了解。虽然我目前是个小菜鸟，
+          但是我有良好的自学能力和coding的热情。我喜欢尝试新鲜的事物，想认识更多更好的人。因此我希望能够加入星晨工作室。
+        </h3>
       </div>
       <h2>skills</h2>
       <div class="introduction">
@@ -118,15 +125,40 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: url("./assets/back.jpg") fixed no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
 }
-.body{
+.body {
   position: relative;
-  top:150px;
+  z-index: 10;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: inherit;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+.body::before {
+  content: "";
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background: inherit;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.25);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 0;
+  filter: blur(6px);
 }
 img {
   height: 196.8px;
   width: 189.6px;
   position: relative;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 h2 {
   position: relative;
@@ -147,9 +179,15 @@ li {
 .info {
   position: relative;
 }
+.info h3 {
+  width: 800px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .introduction {
   padding: 2em;
-  width: 20%;
+  width: 40%;
   position: relative;
   margin: 0 auto;
   background: #f3c794;
@@ -176,6 +214,10 @@ li {
   color: #212121;
   font-size: 13px;
   text-transform: uppercase;
+  transition: 0.5s;
+}
+.bar p:hover {
+  color: #cccccc;
 }
 .skill1,
 .skill3,
@@ -194,18 +236,6 @@ li {
 }
 .contact a:hover {
   color: aliceblue;
-}
-.back {
-  background: url("./assets/back.jpg") center center no-repeat;
-  background-size: 100% 100%;
-  background-color: #cccccc;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  filter: blur(5px);
 }
 .contact {
   position: relative;
