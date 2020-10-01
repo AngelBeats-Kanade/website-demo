@@ -1,107 +1,110 @@
 <template>
   <div id="app">
     <div class="back"></div>
-    <h1>“那些最好的程序员不是为了得到更高的薪水或者得到公众的仰慕而编程，</h1>
-    <h1>他们只是觉得这是一件有趣的事情。”</h1>
-    <img alt="photo" src="./assets/photo.png" />
-    <div class="info">
-      <ul>
-        <li>姓名：肖陶珺</li>
-        <li>专业：电子科学与技术</li>
-      </ul>
-    </div>
-    <h2>skills</h2>
-    <div class="introduction">
-      <div class="clearfix"></div>
-      <div class="agileits_skills_grids">
-        <div class="col-md-6 agileits_skills_grid">
-          <div class="skills">
-            <div class="skill1" style="width: 80%"></div>
-            <div class="bar">
-              <p>HTML / CSS3</p>
-            </div>
-          </div>
-          <div class="skills skills1">
-            <div class="skill3" style="width: 75%"></div>
-            <div class="bar">
-              <p>Javascript</p>
-            </div>
-          </div>
-          <div class="skills skills2">
-            <div class="skill4" style="width: 80%"></div>
-            <div class="bar">
-              <p>C/C++</p>
-            </div>
-          </div>
-          <div class="skills skills3">
-            <div class="skill5" style="width: 60%"></div>
-            <div class="bar">
-              <p>Java</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 agileits_skills_grid">
-          <div class="skills">
-            <div class="skill1" style="width: 60%"></div>
-            <div class="bar">
-              <p>python</p>
-            </div>
-          </div>
-          <div class="skills skills1">
-            <div class="skill3" style="width: 60%"></div>
-            <div class="bar">
-              <p>multitasking</p>
-            </div>
-          </div>
-          <div class="skills skills2">
-            <div class="skill4" style="width: 70%"></div>
-            <div class="bar">
-              <p>creative</p>
-            </div>
-          </div>
-          <div class="skills skills3">
-            <div class="skill5" style="width: 90%"></div>
-            <div class="bar">
-              <p>responsible</p>
-            </div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
+    <div class="body">
+      <img alt="photo" src="./assets/photo.png" />
+      <div class="info">
+        <ul>
+          <li>姓名：肖陶珺</li>
+          <li>专业：电子科学与技术</li>
+        </ul>
+        <p>
+          “那些最好的程序员不是为了得到更高的薪水或者得到公众的仰慕而编程，他们只是觉得这是一件有趣的事情。”——Linus Torvalds
+        </p>
       </div>
-    </div>
-    <div class="contact">
-      <h3>联系我</h3>
-      <ul>
-        <li>
-          <a
-            href="tencent://message/?uin=2445743081&Site=&Menu=yes"
-            target="_blank"
-            rel="noopener"
-            ><span class="social fa fa-qq">QQ</span></a
-          >
-        </li>
-        <li>
-          <a
-            href="mailto:angelbeats177@gmail.com?subject=welcome&body=Welcome to my page!"
-            target="_blank"
-            rel="noopener"
-            ><span class="social fa fa-envelope-o">E-mail</span></a
-          >
-        </li>
-        <li>
-          <a
-            href="https://github.com/AngelBeats-Kanade"
-            target="_blank"
-            rel="noopener"
-            ><span class="social fa fa-github">Github</span></a
-          >
-        </li>
-        <li>
-          <a href="" target="_blank" rel="noopener"
-            ><span class="social fa fa-phone">(+86)18960519068</span></a
-          >
-        </li>
-      </ul>
+      <h2>skills</h2>
+      <div class="introduction">
+        <div class="clearfix"></div>
+        <div class="agileits_skills_grids">
+          <div class="col-md-6 agileits_skills_grid">
+            <div class="skills">
+              <div class="skill1" style="width: 80%"></div>
+              <div class="bar">
+                <p>HTML / CSS3</p>
+              </div>
+            </div>
+            <div class="skills skills1">
+              <div class="skill3" style="width: 75%"></div>
+              <div class="bar">
+                <p>Javascript</p>
+              </div>
+            </div>
+            <div class="skills skills2">
+              <div class="skill4" style="width: 80%"></div>
+              <div class="bar">
+                <p>C/C++</p>
+              </div>
+            </div>
+            <div class="skills skills3">
+              <div class="skill5" style="width: 60%"></div>
+              <div class="bar">
+                <p>Java</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 agileits_skills_grid">
+            <div class="skills">
+              <div class="skill1" style="width: 60%"></div>
+              <div class="bar">
+                <p>python</p>
+              </div>
+            </div>
+            <div class="skills skills1">
+              <div class="skill3" style="width: 60%"></div>
+              <div class="bar">
+                <p>multitasking</p>
+              </div>
+            </div>
+            <div class="skills skills2">
+              <div class="skill4" style="width: 70%"></div>
+              <div class="bar">
+                <p>creative</p>
+              </div>
+            </div>
+            <div class="skills skills3">
+              <div class="skill5" style="width: 90%"></div>
+              <div class="bar">
+                <p>responsible</p>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="contact">
+        <h3>联系我</h3>
+        <ul>
+          <li>
+            <a
+              href="tencent://message/?uin=2445743081&Site=&Menu=yes"
+              target="_blank"
+              rel="noopener"
+              ><span class="social fa fa-qq">QQ</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:angelbeats177@gmail.com?subject=welcome&body=Welcome to my page!"
+              target="_blank"
+              rel="noopener"
+              ><span class="social fa fa-envelope-o">E-mail</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/AngelBeats-Kanade"
+              target="_blank"
+              rel="noopener"
+              ><span class="social fa fa-github">Github</span></a
+            >
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener"
+              ><span class="social fa fa-phone">(+86)18960519068</span></a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -115,6 +118,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.body{
+  position: relative;
+  top:150px;
 }
 img {
   height: 196.8px;
