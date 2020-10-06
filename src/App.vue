@@ -118,7 +118,10 @@
 
 <style>
 @import "//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-
+body{
+  margin: 0px;
+  padding: 0px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -139,11 +142,12 @@
   background: inherit;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
+  border-radius: 18px;
 }
 .body::before {
   content: "";
   width: calc(100% + 20px);
-  height: calc(100% + 20px);
+  height: calc(100%);
   background: inherit;
   box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.25);
   position: absolute;
@@ -184,6 +188,9 @@ li {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  padding: 10px 10px 10px 10px;
+  border: 5px solid powderblue;
+  border-radius: 18px;
 }
 .introduction {
   padding: 2em;
@@ -191,6 +198,7 @@ li {
   position: relative;
   margin: 0 auto;
   background: #f3c794;
+  border-radius: 18px;
 }
 .skills {
   width: 100%;
