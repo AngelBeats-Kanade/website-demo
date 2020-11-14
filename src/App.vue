@@ -16,7 +16,7 @@
           你好！我叫肖陶珺，是一个来自电子科学与技术专业的大三学生。目前正致力于成为一名合格的前端工程师。
           曾经以码农的身份参加过“萌升杯”并获得了一等奖。我具有一定的编程基础，能熟练应用HTML/CSS/JS三剑客，
           基本熟悉Vue框架的基础，能熟练使用webpack，git等工具，还对C/C++,Java有一定的了解。虽然我目前是个小菜鸟，
-          但是我有良好的自学能力和coding的热情。我喜欢尝试新鲜的事物，想认识更多更好的人。因此我希望能够加入星晨工作室。
+          但是我有良好的自学能力和coding的热情。我喜欢尝试新鲜的事物，想认识更多更好的人。
         </h3>
       </div>
       <h2>skills</h2>
@@ -118,7 +118,7 @@
 
 <style>
 @import "//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
