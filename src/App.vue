@@ -30,9 +30,9 @@
             </span>
           </template>
           <a-menu-item key="6">Team 1</a-menu-item>
-          <a-menu-item key="8">Team 2</a-menu-item>
+          <a-menu-item key="7">Team 2</a-menu-item>
         </a-sub-menu>
-        <a-menu-item key="9">
+        <a-menu-item key="8">
           <file-outlined/>
           <span>File</span>
         </a-menu-item>
@@ -43,10 +43,10 @@
       <a-layout-content style="margin: 0 16px">
         <a-breadcrumb style="margin: 16px 0">
           <a-breadcrumb-item>User</a-breadcrumb-item>
-          <a-breadcrumb-item>Bill</a-breadcrumb-item>
+          <a-breadcrumb-item>Kanade</a-breadcrumb-item>
         </a-breadcrumb>
         <div :style="{ padding: '24px', background: '#fff', minHeight: '360px' }">
-          <HelloWorld msg="Welcome to angelbeats.site"/>
+          <HelloWorld v-if="selectedKeys[0]==='1'" msg='Welcome to angelbeats.site'/>
         </div>
       </a-layout-content>
       <a-layout-footer style="text-align: center">
@@ -60,7 +60,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import {defineComponent, ref} from 'vue'
 import {DesktopOutlined, FileOutlined, PieChartOutlined, TeamOutlined, UserOutlined} from '@ant-design/icons-vue'
-import {Breadcrumb, Layout, Menu} from "ant-design-vue";
+import {Breadcrumb, Layout, Menu} from 'ant-design-vue';
 
 export default defineComponent({
   name: 'App',
@@ -71,16 +71,16 @@ export default defineComponent({
     UserOutlined,
     TeamOutlined,
     FileOutlined,
-    "a-layout": Layout,
-    "a-layout-header": Layout.Header,
-    "a-layout-footer": Layout.Footer,
-    "a-layout-sider": Layout.Sider,
-    "a-layout-content": Layout.Content,
-    "a-menu": Menu,
-    "a-menu-item": Menu.Item,
-    "a-sub-menu": Menu.SubMenu,
-    "a-breadcrumb": Breadcrumb,
-    "a-breadcrumb-item": Breadcrumb.Item
+    'a-layout': Layout,
+    'a-layout-header': Layout.Header,
+    'a-layout-footer': Layout.Footer,
+    'a-layout-sider': Layout.Sider,
+    'a-layout-content': Layout.Content,
+    'a-menu': Menu,
+    'a-menu-item': Menu.Item,
+    'a-sub-menu': Menu.SubMenu,
+    'a-breadcrumb': Breadcrumb,
+    'a-breadcrumb-item': Breadcrumb.Item
   },
   data() {
     return {
