@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <a-button type="primary">Hello</a-button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -8,7 +9,8 @@
     </p>
     <h3>Installed CLI Plugins</h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript" rel="noopener"
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript"
+             rel="noopener"
              target="_blank">typescript</a></li>
     </ul>
     <h3>Essential Links</h3>
@@ -33,10 +35,14 @@
 
 <script lang="ts">
 import {Options, Vue} from 'vue-class-component';
+import {Button} from "ant-design-vue";
 
 @Options({
   props: {
     msg: String
+  },
+  components: {
+    "a-button": Button
   }
 })
 export default class HelloWorld extends Vue {
@@ -49,14 +55,17 @@ export default class HelloWorld extends Vue {
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
