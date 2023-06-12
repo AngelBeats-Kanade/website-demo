@@ -2,7 +2,7 @@ module.exports = {
   'root'   : true,
   'env'    : {'node': true},
   'extends': [
-    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommended',
     'eslint:recommended',
     '@vue/eslint-config-typescript'
   ],
@@ -12,7 +12,7 @@ module.exports = {
     'vue/html-closing-bracket-newline': [
       'error', {
         'singleline': 'never',
-        'multiline' : 'never'
+        'multiline' : 'always'
       }
     ],
     // 闭合标签的空格数(>和属性之间的空格)

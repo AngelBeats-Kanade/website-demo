@@ -1,12 +1,14 @@
 <template>
-  <v-app-bar flat
-             color="teal-darken-4"
-             image="https://picsum.photos/1920/1080?random">
-    <template v-slot:image>
+  <v-app-bar
+    flat
+    color="teal-darken-4"
+    image="https://picsum.photos/1920/1080?random"
+  >
+    <template #image>
       <v-img gradient="to top right, rgba(19,84,122,.8), rgba(128,208,199,.8)" />
     </template>
 
-    <template v-slot:prepend>
+    <template #prepend>
       <v-app-bar-nav-icon />
     </template>
 
@@ -17,32 +19,46 @@
 
     <v-spacer />
 
-    <v-btn icon
-           @click="toggleTheme"
-           class="mr-12">
+    <v-btn
+      icon
+      class="mr-12"
+      @click="toggleTheme"
+    >
       <v-icon>mdi-theme-light-dark</v-icon>
-      <v-tooltip activator="parent"
-                 location="start">
+      <v-tooltip
+        activator="parent"
+        location="start"
+      >
         Toogle theme
       </v-tooltip>
     </v-btn>
 
-    <div id="nav"
-         class="pr-15">
-      <router-link icon
-                   to="/">
+    <div
+      id="nav"
+      class="pr-15"
+    >
+      <router-link
+        icon
+        to="/"
+      >
         <v-icon icon="mdi-home-circle-outline" />
-        <v-tooltip activator="parent"
-                   location="start">
+        <v-tooltip
+          activator="parent"
+          location="start"
+        >
           Home
         </v-tooltip>
       </router-link>
       |
-      <router-link icon
-                   to="/about">
+      <router-link
+        icon
+        to="/about"
+      >
         <v-icon icon="mdi-information-outline" />
-        <v-tooltip activator="parent"
-                   location="start">
+        <v-tooltip
+          activator="parent"
+          location="start"
+        >
           About
         </v-tooltip>
       </router-link>
