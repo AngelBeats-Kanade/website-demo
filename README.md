@@ -1,5 +1,7 @@
 # angelbeats.site
 
+[![Build](https://github.com/AngelBeats-Kanade/website-demo/actions/workflows/build.yml/badge.svg)](https://github.com/AngelBeats-Kanade/website-demo/actions/workflows/build.yml)
+
 ## Project setup
 
 ```
